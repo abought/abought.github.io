@@ -56,7 +56,7 @@ This isn’t just a fun parlor trick; it can affect the behavior of running code
 ### Conclusions
 For the sake of the original trivia question we started with: depending on your problem to be solved, there are three possible answers, and *none* of them are accurate. As of this writing, the most *accurate* answer to our question is “Maybe (except)”.  
 
-But programming isn't about answering a quiz: we are continuously evolving our tools and work habits in the pursuit of *what works*. If you are writing real code that requires tracking insertion order: consider the [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) data type when you need to worry about key order at all.
+But programming isn't about answering a quiz: we are continuously evolving our tools and work habits in the pursuit of *what works*. If you are writing real code that requires tracking insertion order: consider the builtin ES6 [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) data type, a hash designed to avoid much of the historical weirdness of `Object`.
 
 {% highlight javascript %}
 > const myobject = new Map([
