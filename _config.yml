@@ -29,9 +29,11 @@ twitter_username: occsci
 github_username:  abought
 
 # Build settings
+permalink: /:year/:month/:day/:title:output_ext
 theme: minima
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

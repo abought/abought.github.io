@@ -2,10 +2,10 @@
 layout: post
 title:  "Yes, no, and maybe (except)"
 date:   2020-10-17 17:06:25 -0400
-categories: javascript 
+categories: javascript learning
 ---
 
-There are two aspects to mastering a language: deep insights, and a knowledge of its eccentricities. While this is a useful way to organize my own knowledge, I am always skeptical of those who think this is a good way to teach (or evaluate) someone else.
+When learning to use a new language or tool, I tend to organize the information into two pieces: deep insights, and a knowledge of quirks. But while this is useful for myself, I am always skeptical of those who think this is a good way to teach (or evaluate) someone else: it often leads to giving "the weird stuff" too much weight.
 
 Consider a brief JavaScript trivia question:
 
@@ -66,7 +66,7 @@ But programming isn't about answering a quiz: we are continuously evolving our t
 ]);
 {"3" => "c", "1" => "a", "2" => "b"}
 > myobject2.keys()
-MapIterator {"3", "1", "2"}
+MapIterator {"3", "1", "2"}
 {% endhighlight %}
 
 Particularly in a fast-evolving language, there are many traps that are difficult to remember. It’s tempting to treat programming knowledge as a trivia contest, but it’s better to define coding standards that guide new teammates around these pitfalls altogether. Too many style discussions and rules focus on whitespace control (tabs! spaces!) instead. If you are a senior developer: how can you turn the discussion away from trivia, and towards laying the groundwork for your team to succeed?
