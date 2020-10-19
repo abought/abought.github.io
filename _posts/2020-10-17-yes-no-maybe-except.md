@@ -5,7 +5,7 @@ date:   2020-10-17 17:06:25 -0400
 categories: javascript learning
 ---
 
-When learning to use a new language or tool, I tend to organize the information into two pieces: deep insights, and a knowledge of quirks. But while this is useful for myself, I am always skeptical of those who think this is a good way to teach (or evaluate) someone else: it often leads to giving "the weird stuff" too much weight.
+When learning to use a new language or tool, I tend to organize the information into two broad categories: deep insights, and a knowledge of quirks. But while this is useful for myself, I am always skeptical of those who think this is a good way to teach (or evaluate) someone else: it often leads to giving "the weird stuff" too much weight.
 
 Consider a brief JavaScript trivia question:
 
